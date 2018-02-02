@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{03DA82B0-E8F2-406B-9A22-E98F43D19822}|Default">
+  <MonoDevelop.Ide.ItemProperties.search__an__element__with__array__indices PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="search_an_element_with_array_indices/Program.cs">
+    <Files>
+      <File FileName="search_an_element_with_array_indices/Program.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
