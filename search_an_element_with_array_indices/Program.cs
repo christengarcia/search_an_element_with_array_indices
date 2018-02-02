@@ -22,5 +22,26 @@ namespace search_an_element_with_array_indices
             FindObject(ints, 2000000);
             Console.ReadLine();
         }
+
+        public static void FindObject(Array array, Object o)
+        {
+            int index = Array.BinarySearch(array, 0, array.Length, o);
+            Console.WriteLine();
+            if (index > 0)
+            {
+                Console.WriteLine("Object: {0} found at [{1}]", o, index);
+            }
+            else if (~index == array.Length)
+            {
+                Console.WriteLine("Object: {0} not found. "
+                   + "No array object has a greater value.", o);
+                Console.WriteLine();
+            }
+            else
+            {
+                Console.WriteLine("Object: {0} not found. "
+                   + "Next larger object found at [{1}].", o, ~index);
+            }
+        }
     }
 }
